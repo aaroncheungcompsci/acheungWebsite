@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import NavBar from '../components/Navbar'
 
 interface User {
     id: number;
@@ -14,7 +15,8 @@ const UsersPage = async () => {
 
   return (
     <>
-        <h1>Users</h1>
+        <NavBar />
+        <h1>List of Users</h1>
         <table className='table table-zebra'>
             <thead>
                 <tr>

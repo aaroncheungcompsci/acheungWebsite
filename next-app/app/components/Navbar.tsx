@@ -3,7 +3,7 @@ import Home from './NavbarButtons/Home'
 
 const Header = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-neutral text-neutral-content">
         <div className="flex-1">
             <Home />
         </div>
@@ -15,7 +15,7 @@ const Header = () => {
                         <summary>
                             Fun Things
                         </summary>
-                        <ul className="p-2 bg-base-100 rounded-t-none">
+                        <ul className="p-2 bg-base-300 rounded-t-none">
                             <li><a href='users'>Users</a></li>
                             <li><a>Link 2</a></li>
                         </ul>
