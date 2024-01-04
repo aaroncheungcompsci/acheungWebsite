@@ -15,7 +15,6 @@ const UsersPage = async () => {
 
   return (
     <>
-        <NavBar />
         <h1>List of Users</h1>
         <table className='table table-zebra'>
             <thead>

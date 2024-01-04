@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './NavbarButtons/Home'
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div className="navbar bg-neutral text-neutral-content">
         <div className="flex-1">
@@ -27,4 +27,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar
