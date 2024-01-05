@@ -1,18 +1,18 @@
 import React from 'react'
-import Home from './NavbarButtons/Home'
 
 const Navbar = () => {
   return (
     <div className="navbar bg-neutral text-neutral-content">
         <div className="flex-1">
-            <a className="btn btn-ghost text-xl" href='/'>Home</a>
+            <a className="btn btn-ghost text-2xl italic font-serif" href='/'>AC</a>
         </div>
         <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
-                <li><a>Terminal</a></li>
+                <li><a className='italic'>About Me</a></li>
+                <li><a className='italic'>Terminal</a></li>     
                 <li>
                     <details>
-                        <summary>
+                        <summary className='italic'>
                             Fun Things
                         </summary>
                         <ul className="p-2 bg-base-300 rounded-t-none">
