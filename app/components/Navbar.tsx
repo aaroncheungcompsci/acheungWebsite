@@ -17,7 +17,7 @@ const Navbar = () => {
                         </summary>
                         <ul className="p-2 bg-base-300 rounded-t-none">
                             <li><a href='users'>Users</a></li>
-                            <li><a>Link 2</a></li>
+                            <li><a>Terminal</a></li>
                         </ul>
                     </details>
                 </li>

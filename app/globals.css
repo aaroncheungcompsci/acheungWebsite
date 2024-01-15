@@ -12,9 +12,17 @@
   }
 } 
 
+.bg {
+  background-image: url(../img/bg3.jpg);
+  width: 100%;
+  height: 1080px;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 1rem;
 }
 
 h1 {
