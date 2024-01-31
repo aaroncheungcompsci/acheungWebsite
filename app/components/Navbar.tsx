@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
                 <li><a className='italic'>About Me</a></li>
-                <li><a className='italic'>Terminal</a></li>     
+                <li><a href="terminal" className='italic'>Terminal</a></li>     
                 <li>
                     <details>
                         <summary className='italic'>

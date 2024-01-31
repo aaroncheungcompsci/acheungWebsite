@@ -21,6 +21,15 @@
   background-position: center;
 }
 
+.terminal {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: auto;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
 }

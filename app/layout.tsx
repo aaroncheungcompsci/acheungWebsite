@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aaron Cheung\'s Portfolio',
-  description: 'Portfolio showcasing achievements and personal projects',
+  description: 'Portfolio showcasing achievements, experience, and personal projects',
 }
 
 export default function RootLayout({
@@ -21,8 +21,8 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
             {/* this is where all components that are rendered once needs to be */}
-            <div className='bg'>
-              <Navbar />
+            <Navbar />
+            <div className='bg'>       
               {children}
             </div>
             <Footer />

@@ -7,7 +7,6 @@ const Footer = () => {
             <nav>
                 <header className="footer-title">Links</header> 
                 <a className="link link-hover">About Me</a>
-                <a className="link link-hover">Contact</a>
                 <a className="link link-hover">Resume</a>
             </nav> 
             <nav>
